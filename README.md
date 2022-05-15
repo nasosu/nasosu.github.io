@@ -1,3 +1,3 @@
-# nasosu.github.io
+# naso.su
 
 Тест страница
