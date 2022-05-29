@@ -3,16 +3,18 @@
 ## This is a second level heading (H2)
 
 :::row:::
-   :::column span="2":::
-      **This is a 2-span column with lots of text.**
+:::column span="2":::
+
+**This is a 2-span column with lots of text.**
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum mollis nunc
       ornare commodo. Nullam ac metus imperdiet, rutrum justo vel, vulputate leo. Donec
       rutrum non eros eget consectetur.
-   :::column-end:::
-   :::column span="":::
+      
+:::column-end:::
+:::column span="":::
       **This is a single-span column with an image in it.**
 
       ![Doc.U.Ment](media/markdown-reference/document.png)
-   :::column-end:::
+:::column-end:::
 :::row-end:::
