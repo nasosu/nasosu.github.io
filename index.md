@@ -19,3 +19,8 @@ This text is both ***bold and italic***.
   - and this is
   - a nested bulleted list
 - All done!
+
+|This is   |a simple   |table header|
+|----------|-----------|------------|
+|table     |data       |here        |
+|it doesn't|actually   |have to line up nicely!|
