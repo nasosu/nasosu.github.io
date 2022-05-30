@@ -1,13 +1,13 @@
 # This is a first level heading (H1)
 
-This text is **bold**.
+This text is **Жирный**.
 
-This text is *italic*.
+This text is *курсив*.
 
 This text is both ***bold and italic***.
 
 1. This is
-1. a parent numbered list
+1. a parent numbered список
    1. and this is
    1. a nested `numbered` list
 1. (fin)
