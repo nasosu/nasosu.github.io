@@ -10,19 +10,19 @@ To extend the logical volume:
 `# fdisk -l`
  
 5. Create a new primary partition:
-  5.1. Run the command:
+  - Run the command:
 
   `# fdisk /dev/sda (depending the results of the step 4)`
     
-  5.2. Press `p` to print the partition table to identify the number of partitions. By default, there are 2: sda1 and sda2.
-  5.3. Press `n` to create a new primary partition.
-  5.4. Press `p` for primary.
-  5.5. Press `3` for the partition number, depending on the output of the partition table print.
-  5.6. Press `Enter` two times.
-  5.7. Press `t` to change the system's partition ID.
-  5.8. Press `3` to select the newly creation partition.
-  5.9. Type `8e` to change the Hex Code of the partition for Linux LVM.
-  5.10. Press `w` to write the changes to the partition table.
+  - Press `p` to print the partition table to identify the number of partitions. By default, there are 2: sda1 and sda2.
+  - Press `n` to create a new primary partition.
+  - Press `p` for primary.
+  - Press `3` for the partition number, depending on the output of the partition table print.
+  - Press `Enter` two times.
+  - Press `t` to change the system's partition ID.
+  - Press `3` to select the newly creation partition.
+  - Type `8e` to change the Hex Code of the partition for Linux LVM.
+  - Press `w` to write the changes to the partition table.
  
 6. Restart the virtual machine.
 7. Run this command to verify that the changes were saved to the partition table and that the new partition has an 8e type:
