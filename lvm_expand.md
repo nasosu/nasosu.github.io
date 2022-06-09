@@ -6,10 +6,12 @@ To extend the logical volume:
 2. Edit the virtual machine settings and extend the virtual disk size. For more information, see Increasing the size of a virtual disk (1004047).
 3. Power on the virtual machine.
 4. Identify the device name, which is by default /dev/sda, and confirm the new size by running the command:
+
 `# fdisk -l`
  
 5. Create a new primary partition:
   1. Run the command:
+
     `# fdisk /dev/sda (depending the results of the step 4)`
   2. Press `p` to print the partition table to identify the number of partitions. By default, there are 2: sda1 and sda2.
   3. Press `n` to create a new primary partition.
