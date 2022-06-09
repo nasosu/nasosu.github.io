@@ -33,7 +33,7 @@ To extend the logical volume:
   `# vgdisplay VolGroup00 | grep "Free"` 
 11. Run the following command to extend the Logical Volume:
   Note: To determine which logical volume to extend, use the command lvdisplay.  
-  `# lvextend -L+#G /dev/VolGroup00/LogVol00`
+  `# lvextend -L+#G /dev/VolGroup00/LogVol00`  
   Where `#` is the number of Free space in GB available as per the previous command. Use the full number output from Step 10 including any decimals. 
 12. Run the following command to expand the ext3 filesystem online, inside of the Logical Volume:
   Note:
