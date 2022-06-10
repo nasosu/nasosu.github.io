@@ -1,5 +1,6 @@
 # Cсылки
 - [Extending a logical volume in a virtual machine running Red Hat or Cent OS](https://naso.su/lvm_expand lvm_expand)
+- [FreePBX CDR cyrillic fix](https://naso.su/fpbx_cdr_cyr_fix fpbx_cdr_cyr_fix)
 
 # This is a first level heading (H1)  AАaа
 
