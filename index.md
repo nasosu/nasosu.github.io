@@ -1,7 +1,7 @@
 # Cсылки
 - [Extending a logical volume in a virtual machine running Red Hat or Cent OS](https://naso.su/lvm_expand)
 - [FreePBX CDR cyrillic fix](https://naso.su/fpbx_cdr_cyr_fix)
-- [Активация не по телефону https://getcid.info](https://getcid.info)
+- Активация не по телефону <https://getcid.info>
 - [Хорошая статья про ssh](https://habr.com/ru/company/ruvds/blog/676596/)
 - [Remote reboot with SIP-NOTIFY in FreePBX](https://naso.su/checksync)
 
