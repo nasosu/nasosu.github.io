@@ -4,6 +4,7 @@
 - Активация не по телефону <https://getcid.info>
 - [Хорошая статья про ssh](https://habr.com/ru/company/ruvds/blog/676596/)
 - [Remote reboot with SIP-NOTIFY in FreePBX](https://naso.su/checksync)
+- Документация Avaya IP Office <http://batphone.us> <https://ipoffice-service.com>
 
 # This is a first level heading (H1)  AАaа
 
