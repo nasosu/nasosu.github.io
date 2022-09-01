@@ -5,6 +5,7 @@
 - [Хорошая статья про ssh](https://habr.com/ru/company/ruvds/blog/676596/)
 - [Remote reboot with SIP-NOTIFY in FreePBX](https://naso.su/checksync)
 - Документация Avaya IP Office <http://batphone.us> <https://ipoffice-service.com>
+- [Настройка транка H.323 на Asterisk](https://naso.su/h323)
 
 
 # This is a first level heading (H1)  AАaа
