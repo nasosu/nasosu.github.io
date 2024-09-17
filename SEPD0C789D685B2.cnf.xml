@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device  xsi:type="axl:XIPPhone" ctiid="1682" uuid="{9b93331a-7696-3a6c-012c-ab6cf53bd09c}">
+<fullConfig>true</fullConfig>
+<deviceProtocol>SCCP</deviceProtocol>
+<sshUserId></sshUserId>
+<sshPassword></sshPassword>
+<ipAddressMode>0</ipAddressMode>
+<ipPreferenceModeControl>0</ipPreferenceModeControl>
+<allowAutoConfig>true</allowAutoConfig>
+<tzdata>
+<tzolsonversion>2010o</tzolsonversion>
+<tzupdater>tzupdater.jar</tzupdater>
+</tzdata>
+<devicePool  uuid="{e16940f4-1849-5ba1-5d9a-d535a1cfc9cb}">
+<revertPriority>0</revertPriority>
+<name>GS_SPB_Shmidt5</name>
+<dateTimeSetting  uuid="{9ec4850a-7748-11d3-bdf0-00108302ead1}">
+<name>CMLocal</name>
+<dateTemplate>D/M/Y</dateTemplate>
+<timeZone></timeZone>
+<olsonTimeZone>Etc/GMT-3</olsonTimeZone>
+</dateTimeSetting>
+<callManagerGroup>
+<name>GS_CCM_GRP1</name>
+<tftpDefault>true</tftpDefault>
+<members>
+<member  priority="0">
+<callManager>
+<name>172.19.24.3</name>
+<description>gs-ccm2</description>
+<ports>
+<ethernetPhonePort>2000</ethernetPhonePort>
+<sipPort>5060</sipPort>
+<securedSipPort>5061</securedSipPort>
+<mgcpPorts>
+<listen>2427</listen>
+<keepAlive>2428</keepAlive>
+</mgcpPorts>
+</ports>
+<processNodeName>172.19.24.3</processNodeName>
+</callManager>
+</member>
+<member  priority="1">
+<callManager>
+<name>172.19.24.2</name>
+<description>gs-ccm1</description>
+<ports>
+<ethernetPhonePort>2000</ethernetPhonePort>
+<sipPort>5060</sipPort>
+<securedSipPort>5061</securedSipPort>
+<mgcpPorts>
+<listen>2427</listen>
+<keepAlive>2428</keepAlive>
+</mgcpPorts>
+</ports>
+<processNodeName>172.19.24.2</processNodeName>
+</callManager>
+</member>
+</members>
+</callManagerGroup>
+<srstInfo  uuid="{4e45a7d5-aa51-2329-01ca-d4a2afd876f5}">
+<name>GS_SPB_Shmidt5</name>
+<srstOption>User Specific</srstOption>
+<userModifiable>true</userModifiable>
+<ipAddr1>10.57.0.1</ipAddr1>
+<port1>2000</port1>
+<ipAddr2></ipAddr2>
+<port2>2000</port2>
+<ipAddr3></ipAddr3>
+<port3>2000</port3>
+<sipIpAddr1></sipIpAddr1>
+<sipPort1>5060</sipPort1>
+<sipIpAddr2></sipIpAddr2>
+<sipPort2>5060</sipPort2>
+<sipIpAddr3></sipIpAddr3>
+<sipPort3>5060</sipPort3>
+<isSecure>false</isSecure>
+</srstInfo>
+<mlppDomainId>-1</mlppDomainId>
+<mlppIndicationStatus>Default</mlppIndicationStatus>
+<preemption>Default</preemption>
+<connectionMonitorDuration>120</connectionMonitorDuration>
+</devicePool>
+<MissedCallLoggingOption>1</MissedCallLoggingOption>
+<commonProfile>
+<phonePassword></phonePassword>
+<backgroundImageAccess>true</backgroundImageAccess>
+<callLogBlfEnabled>3</callLogBlfEnabled>
+</commonProfile>
+<loadInformation>SCCP42.9-3-1SR2-1S</loadInformation>
+<vendorConfig>
+<disableSpeaker>false</disableSpeaker><disableSpeakerAndHeadset>false</disableSpeakerAndHeadset><forwardingDelay>1</forwardingDelay><pcPort>0</pcPort><garp>1</garp><voiceVlanAccess>0</voiceVlanAccess><autoSelectLineEnable>0</autoSelectLineEnable><webAccess>0</webAccess><spanToPCPort>1</spanToPCPort><loggingDisplay>1</loggingDisplay><recordingTone>0</recordingTone><recordingToneLocalVolume>100</recordingToneLocalVolume><recordingToneRemoteVolume>50</recordingToneRemoteVolume><recordingToneDuration></recordingToneDuration><moreKeyReversionTimer>5</moreKeyReversionTimer><autoCallSelect>1</autoCallSelect><logServer></logServer><g722CodecSupport>0</g722CodecSupport><headsetWidebandUIControl>0</headsetWidebandUIControl><headsetWidebandEnable>0</headsetWidebandEnable><lldpAssetId></lldpAssetId><powerPriority>0</powerPriority><ehookEnable>0</ehookEnable><displayRefreshRate>0</displayRefreshRate><ipv6LogServer></ipv6LogServer><detectCMConnectionFailure>0</detectCMConnectionFailure><minimumRingVolume>0</minimumRingVolume><sideToneLevel>0</sideToneLevel><webProtocol>0</webProtocol><handsetHeadsetMonitor>1</handsetHeadsetMonitor><headsetRecording>0</headsetRecording><useEnblocDialing>1</useEnblocDialing></vendorConfig>
+<commonConfig>
+</commonConfig>
+<enterpriseConfig>
+</enterpriseConfig>
+<versionStamp>1592889209-8908e3c5-373c-4817-976b-9190c0b10446</versionStamp>
+<addOnModules>
+<addOnModule  uuid="{1de1c7ac-652a-f6f8-f701-4d589c1b0dda}" idx="1">
+<deviceType>7915</deviceType>
+<deviceLine>24</deviceLine>
+<loadInformation>B015-1-0-4-2</loadInformation>
+<phoneTemplateId>2f2ec830-9c0e-50aa-55d9-294a05407b21</phoneTemplateId>
+</addOnModule>
+</addOnModules>
+<userLocale>
+<name>Russian_Russian_Federation</name>
+<uid>5</uid>
+<langCode>ru_RU</langCode>
+<version>7.1.5.1200-1</version>
+<winCharSet>windows-1251</winCharSet>
+</userLocale>
+<networkLocale>Russian_Federation</networkLocale>
+<networkLocaleInfo>
+<name>Russian_Federation</name>
+<uid>50</uid>
+<version>7.1.5.1200-1</version>
+</networkLocaleInfo>
+<deviceSecurityMode>1</deviceSecurityMode>
+<idleTimeout>0</idleTimeout>
+<authenticationURL>http://172.19.24.2:8080/ccmcip/authenticate.jsp</authenticationURL>
+<directoryURL>http://172.19.24.2:8080/ccmcip/xmldirectory.jsp</directoryURL>
+<idleURL></idleURL>
+<informationURL>http://172.19.24.2:8080/ccmcip/GetTelecasterHelpText.jsp</informationURL>
+<messagesURL></messagesURL>
+<proxyServerURL></proxyServerURL>
+<servicesURL>http://172.19.24.2:8080/ccmcip/getservicesmenu.jsp</servicesURL>
+<dscpForSCCPPhoneConfig>96</dscpForSCCPPhoneConfig>
+<dscpForSCCPPhoneServices>0</dscpForSCCPPhoneServices>
+<dscpForCm2Dvce>96</dscpForCm2Dvce>
+<transportLayerProtocol>1</transportLayerProtocol>
+<dndCallAlert>5</dndCallAlert>
+<phonePersonalization>0</phonePersonalization>
+<rollover>0</rollover>
+<singleButtonBarge>0</singleButtonBarge>
+<joinAcrossLines>0</joinAcrossLines>
+<autoCallPickupEnable>false</autoCallPickupEnable>
+<blfAudibleAlertSettingOfIdleStation>0</blfAudibleAlertSettingOfIdleStation>
+<blfAudibleAlertSettingOfBusyStation>0</blfAudibleAlertSettingOfBusyStation>
+<capfAuthMode>0</capfAuthMode>
+<capfList>
+<capf>
+<phonePort>3804</phonePort>
+<processNodeName></processNodeName>
+</capf>
+</capfList>
+<certHash></certHash>
+<encrConfig>false</encrConfig>
+<advertiseG722Codec>0</advertiseG722Codec>
+<mobility>
+<handoffdn></handoffdn>
+<dtmfdn></dtmfdn>
+<ivrdn></ivrdn>
+<dtmfHoldCode>*81</dtmfHoldCode>
+<dtmfExclusiveHoldCode>*82</dtmfExclusiveHoldCode>
+<dtmfResumeCode>*83</dtmfResumeCode>
+<dtmfTxfCode>*84</dtmfTxfCode>
+<dtmfCnfCode>*85</dtmfCnfCode>
+</mobility>
+<userId></userId>
+<phoneServices>
+<provisioning>2</provisioning>
+<phoneService  type="1" category="0">
+<name>Missed Calls</name>
+<url>Application:Cisco/MissedCalls</url>
+<vendor></vendor>
+<version></version>
+</phoneService>
+<phoneService  type="2" category="0">
+<name>Voicemail</name>
+<url>Application:Cisco/Voicemail</url>
+<vendor></vendor>
+<version></version>
+</phoneService>
+<phoneService  type="1" category="0">
+<name>Received Calls</name>
+<url>Application:Cisco/ReceivedCalls</url>
+<vendor></vendor>
+<version></version>
+</phoneService>
+<phoneService  type="1" category="0">
+<name>Placed Calls</name>
+<url>Application:Cisco/PlacedCalls</url>
+<vendor></vendor>
+<version></version>
+</phoneService>
+<phoneService  type="1" category="0">
+<name>Personal Directory</name>
+<url>Application:Cisco/PersonalDirectory</url>
+<vendor></vendor>
+<version></version>
+</phoneService>
+<phoneService  type="1" category="0">
+<name>Corporate Directory</name>
+<url>Application:Cisco/CorporateDirectory</url>
+<vendor></vendor>
+<version></version>
+</phoneService>
+</phoneServices>
+</device>
